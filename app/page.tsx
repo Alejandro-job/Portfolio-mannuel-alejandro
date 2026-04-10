@@ -3,6 +3,7 @@ import { AboutSection } from '@/components/portfolio/about-section'
 import { SkillsSection } from '@/components/portfolio/skills-section'
 import { ExperienceSection } from '@/components/portfolio/experience-section'
 import { FeaturedProjects } from '@/components/portfolio/featured-projects'
+import { QRDinosaur } from '@/components/portfolio/qr-dinosaur'
 
 export default function HomePage() {
   return (
@@ -12,6 +13,7 @@ export default function HomePage() {
       <SkillsSection />
       <ExperienceSection />
       <FeaturedProjects />
+      <QRDinosaur />
     </div>
   )
 }

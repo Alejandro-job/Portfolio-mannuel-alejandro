@@ -40,8 +40,8 @@ const socialLinks = [
   {
     icon: Github,
     label: "GitHub",
-    href: "https://github.com/mannuelalejandro",
-    username: "@mannuelalejandro",
+    href: "https://github.com/Alejandro-job",
+    username: "@Alejandro-job",
   },
   {
     icon: Twitter,

@@ -23,7 +23,7 @@ const projects = [
     icon: Activity,
     featured: true,
     demoUrl: 'https://tu-streamlit-app.streamlit.app',
-    githubUrl: 'https://github.com/mannuelalejandro/pharma-monitoring',
+    githubUrl: 'https://github.com/Alejandro-job/pharma-monitoring',
   },
   {
     slug: 'shogun-code',
@@ -38,7 +38,7 @@ const projects = [
     icon: TrendingUp,
     featured: false,
     demoUrl: '/proyectos/shogun-code',
-    githubUrl: 'https://github.com/mannuelalejandro/shogun-code',
+    githubUrl: 'https://github.com/Alejandro-job/shogun-code',
   },
   {
     slug: 'automatizacion',
@@ -53,7 +53,7 @@ const projects = [
     icon: Cog,
     featured: false,
     demoUrl: '/proyectos/automatizacion',
-    githubUrl: 'https://github.com/mannuelalejandro/cnc-plc-simulator',
+    githubUrl: 'https://github.com/Alejandro-job/cnc-plc-simulator',
   },
   {
     slug: 'prediccion-ventas',

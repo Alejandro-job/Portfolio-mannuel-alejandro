@@ -18,7 +18,7 @@ const featuredProjects = [
     featured: true,
     icon: Activity,
     demoUrl: 'https://pharma-monitoring.streamlit.app',
-    githubUrl: 'https://github.com/mannuelalejandro/pharma-monitoring',
+    githubUrl: 'https://github.com/Alejandro-job/pharma-monitoring',
   },
   {
     slug: 'shogun-code',
@@ -31,7 +31,7 @@ const featuredProjects = [
     ],
     icon: TrendingUp,
     demoUrl: '/proyectos/shogun-code',
-    githubUrl: 'https://github.com/mannuelalejandro/shogun-code',
+    githubUrl: 'https://github.com/Alejandro-job/shogun-code',
   },
   {
     slug: 'automatizacion',
@@ -44,7 +44,7 @@ const featuredProjects = [
     ],
     icon: Cog,
     demoUrl: '/proyectos/automatizacion',
-    githubUrl: 'https://github.com/mannuelalejandro/cnc-plc-simulator',
+    githubUrl: 'https://github.com/Alejandro-job/cnc-plc-simulator',
   },
   {
     slug: 'deteccion-fraude',
@@ -56,7 +56,7 @@ const featuredProjects = [
       { label: 'Recall', value: '98%' },
     ],
     icon: Shield,
-    githubUrl: 'https://github.com/mannuelalejandro/fraud-detection',
+    githubUrl: 'https://github.com/Alejandro-job/fraud-detection',
   },
 ]
 

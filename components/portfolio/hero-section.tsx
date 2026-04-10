@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react'
 import { Button } from '@/components/ui/button'
-import { ArrowDown, Github, Linkedin, Mail, Sparkles, Phone } from 'lucide-react'
+import { ArrowDown, Github, Linkedin, Mail, Sparkles, Phone, Download } from 'lucide-react'
 import Link from 'next/link'
 
 const roles = [
@@ -122,7 +122,7 @@ export function HeroSection() {
         </p>
 
         {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 fade-in stagger-4">
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8 fade-in stagger-4">
           <Link href="/proyectos/sistema-farmaceutico">
             <Button size="lg" className="gap-2 glow">
               <Sparkles className="w-5 h-5" />
@@ -135,6 +135,16 @@ export function HeroSection() {
               Automatización Industrial
             </Button>
           </Link>
+        </div>
+
+        {/* Download CV Button */}
+        <div className="flex items-center justify-center gap-4 mb-12 fade-in stagger-4">
+          <a href="/cv-mannuel-alejandro.pdf" download>
+            <Button size="lg" variant="secondary" className="gap-2">
+              <Download className="w-5 h-5" />
+              Descargar CV
+            </Button>
+          </a>
         </div>
 
         {/* Contact Info */}
@@ -152,7 +162,7 @@ export function HeroSection() {
         {/* Social Links */}
         <div className="flex items-center justify-center gap-4 fade-in stagger-5">
           <a
-            href="https://github.com/mannuelalejandro"
+            href="https://github.com/Alejandro-job"
             target="_blank"
             rel="noopener noreferrer"
             className="p-3 rounded-full bg-secondary hover:bg-primary/20 text-muted-foreground hover:text-primary transition-all duration-300 hover:scale-110"
