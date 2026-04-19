@@ -295,12 +295,9 @@ export function PharmaCode() {
                       <span className="w-8 text-muted-foreground text-right mr-4 select-none">
                         {i + 1}
                       </span>
-                      <span 
-                        className="flex-1"
-                        dangerouslySetInnerHTML={{
-                          __html: highlightPython(line)
-                        }}
-                      />
+                      <span className="flex-1 whitespace-pre">
+                        {line}
+                      </span>
                     </div>
                   ))}
                 </code>
@@ -311,14 +308,4 @@ export function PharmaCode() {
       </div>
     </section>
   )
-}
-
-function highlightPython(line: string): string {
-  // Simple syntax highlighting
-  return line
-    .replace(/(class|def|return|import|from|as|if|for|in|and|or|not|True|False|None)\b/g, '<span class="text-chart-3">$1</span>')
-    .replace(/(".*?"|'.*?')/g, '<span class="text-accent">$1</span>')
-    .replace(/(#.*$)/g, '<span class="text-muted-foreground">$1</span>')
-    .replace(/\b(self|np|pd|st)\b/g, '<span class="text-primary">$1</span>')
-    .replace(/(\d+\.?\d*)/g, '<span class="text-chart-4">$1</span>')
 }

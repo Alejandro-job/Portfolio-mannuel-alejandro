@@ -124,13 +124,13 @@ export function PharmaArchitecture() {
             Todo el código está disponible en GitHub con documentación detallada y ejemplos de uso.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <a href="https://github.com/tu-usuario/pharma-monitoring" target="_blank" rel="noopener noreferrer">
+            <a href="https://github.com/Alejandro-job/pharma-monitoring" target="_blank" rel="noopener noreferrer">
               <Button size="lg" className="gap-2">
                 <Github className="w-5 h-5" />
                 Ver en GitHub
               </Button>
             </a>
-            <a href="https://tu-streamlit-app.streamlit.app" target="_blank" rel="noopener noreferrer">
+            <a href="https://pharma-monitoring-bpo363jw987m9szyqkqjzb.streamlit.app" target="_blank" rel="noopener noreferrer">
               <Button size="lg" variant="outline" className="gap-2">
                 <ExternalLink className="w-5 h-5" />
                 Demo en Streamlit Cloud

@@ -4,7 +4,7 @@ import { Card, CardContent } from '@/components/ui/card'
 import { Calendar, Clock, ArrowRight, Tag } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Blog | Tu Nombre',
+  title: 'Blog | Mannuel Alejandro',
   description: 'Artículos sobre ciencia de datos, machine learning y desarrollo de software.',
 }
 

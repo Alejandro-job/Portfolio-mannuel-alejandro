@@ -137,14 +137,37 @@ export function HeroSection() {
           </Link>
         </div>
 
-        {/* Download CV Button */}
-        <div className="flex items-center justify-center gap-4 mb-12 fade-in stagger-4">
-          <a href="/cv-mannuel-alejandro.pdf" download>
-            <Button size="lg" variant="secondary" className="gap-2">
-              <Download className="w-5 h-5" />
-              Descargar CV
-            </Button>
-          </a>
+        {/* Download CV + QR Code */}
+        <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-12 fade-in stagger-4">
+          {/* QR Code */}
+          <div className="flex flex-col items-center gap-2">
+            <div className="p-2 bg-[#f5e6e6] rounded-xl shadow-lg hover:scale-105 transition-transform">
+              <img 
+                src="/qr-portfolio.png" 
+                alt="QR Code - Escanea para ver mi portfolio"
+                width={120}
+                height={120}
+                className="rounded-lg"
+              />
+            </div>
+            <span className="text-xs text-muted-foreground">Escanea mi portfolio</span>
+          </div>
+          
+          {/* CV Button */}
+          <div className="flex flex-col items-center gap-3">
+            <a href="/cv-mannuel-alejandro.pdf" download>
+              <Button size="lg" variant="secondary" className="gap-2">
+                <Download className="w-5 h-5" />
+                Descargar CV
+              </Button>
+            </a>
+            <a href="/qr-portfolio.png" download="qr-mannuel-alejandro.png">
+              <Button size="sm" variant="ghost" className="gap-2 text-xs">
+                <Download className="w-4 h-4" />
+                Descargar QR
+              </Button>
+            </a>
+          </div>
         </div>
 
         {/* Contact Info */}

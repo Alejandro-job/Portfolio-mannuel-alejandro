@@ -17,7 +17,7 @@ const featuredProjects = [
     ],
     featured: true,
     icon: Activity,
-    demoUrl: 'https://pharma-monitoring.streamlit.app',
+    demoUrl: 'https://pharma-monitoring-bpo363jw987m9szyqkqjzb.streamlit.app',
     githubUrl: 'https://github.com/Alejandro-job/pharma-monitoring',
   },
   {

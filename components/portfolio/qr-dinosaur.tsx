@@ -110,14 +110,14 @@ export function QRDinosaur() {
               </svg>
             </div>
 
-            {/* QR Code */}
-            <div className="mt-8 p-4 bg-white rounded-xl">
+            {/* QR Code - ShogunCode */}
+            <div className="mt-8 p-2 bg-[#f5e6e6] rounded-xl">
               <img 
-                src={qrUrl} 
-                alt="QR Code para portfolio"
-                width={200}
-                height={200}
-                className="mx-auto"
+                src="/qr-portfolio.png" 
+                alt="QR Code ShogunCode para portfolio"
+                width={220}
+                height={220}
+                className="mx-auto rounded-lg"
               />
             </div>
 
@@ -144,8 +144,8 @@ export function QRDinosaur() {
             </Button>
           </a>
           <a 
-            href={`https://api.qrserver.com/v1/create-qr-code/?size=500x500&data=${encodeURIComponent(portfolioUrl)}&bgcolor=ffffff&color=000000&format=png`}
-            download="qr-portfolio-mannuel.png"
+            href="/qr-portfolio.png"
+            download="qr-shoguncode-mannuel.png"
             className="w-full sm:w-auto"
           >
             <Button size="lg" variant="outline" className="gap-2 w-full">

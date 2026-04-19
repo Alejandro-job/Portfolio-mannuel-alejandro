@@ -11,8 +11,8 @@ const navItems = [
   { href: '/', label: 'Sobre Mí' },
   { href: '/proyectos/sistema-farmaceutico', label: 'Sistema Farmacéutico' },
   { href: '/proyectos/automatizacion', label: 'CNC / PLC' },
+  { href: '/proyectos/bases-datos', label: 'BD / SAP' },
   { href: '/proyectos', label: 'Proyectos' },
-  { href: '/blog', label: 'Blog' },
   { href: '/contacto', label: 'Contacto' },
 ]
 

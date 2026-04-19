@@ -8,7 +8,7 @@ import { PharmaMetrics } from '@/components/pharma/pharma-metrics'
 import { PharmaArchitecture } from '@/components/pharma/pharma-architecture'
 
 export const metadata: Metadata = {
-  title: 'Sistema de Monitoreo Farmacéutico | Tu Nombre',
+  title: 'Sistema de Monitoreo Farmacéutico | Mannuel Alejandro',
   description: 'Sistema completo de monitoreo industrial con ML para detección de anomalías en producción farmacéutica.',
 }
 

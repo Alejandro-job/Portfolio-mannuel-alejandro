@@ -5,7 +5,7 @@ import { Button } from '@/components/ui/button'
 import { ArrowRight, Github, ExternalLink, Activity, BarChart3, Brain, Shield, Database, Cpu, TrendingUp, Cog } from 'lucide-react'
 
 export const metadata: Metadata = {
-  title: 'Proyectos | Tu Nombre',
+  title: 'Proyectos | Mannuel Alejandro',
   description: 'Portfolio de proyectos de ciencia de datos, machine learning e inteligencia artificial.',
 }
 
@@ -22,7 +22,7 @@ const projects = [
     ],
     icon: Activity,
     featured: true,
-    demoUrl: 'https://tu-streamlit-app.streamlit.app',
+    demoUrl: 'https://pharma-monitoring-bpo363jw987m9szyqkqjzb.streamlit.app',
     githubUrl: 'https://github.com/Alejandro-job/pharma-monitoring',
   },
   {
@@ -56,6 +56,21 @@ const projects = [
     githubUrl: 'https://github.com/Alejandro-job/cnc-plc-simulator',
   },
   {
+    slug: 'bases-datos',
+    title: 'Bases de Datos y SAP',
+    description: 'Ejemplos interactivos de normalizacion de bases de datos, diagramas ER y transacciones SAP ERP.',
+    longDescription: 'Demuestra conocimientos en normalizacion (1NF-3NF), diseño de diagramas entidad-relacion, consultas SQL avanzadas y manejo de modulos SAP (MM, SD, FI, PP, QM).',
+    tags: ['SQL Server', 'MySQL', 'SAP ERP', 'Normalizacion', 'Diseño BD'],
+    metrics: [
+      { label: 'Modulos SAP', value: '6' },
+      { label: 'Transacciones', value: '8+' },
+    ],
+    icon: Database,
+    featured: false,
+    demoUrl: '/proyectos/bases-datos',
+    githubUrl: 'https://github.com/Alejandro-job/database-examples',
+  },
+  {
     slug: 'prediccion-ventas',
     title: 'Sistema de Predicción de Ventas',
     description: 'Modelo de forecasting con series temporales para predecir ventas usando Prophet y redes LSTM.',
@@ -66,7 +81,7 @@ const projects = [
       { label: 'Horizonte', value: '90 días' },
     ],
     icon: BarChart3,
-    githubUrl: 'https://github.com/tu-usuario/sales-forecast',
+    githubUrl: 'https://github.com/Alejandro-job/sales-forecast',
   },
   {
     slug: 'clasificador-documentos',
@@ -79,7 +94,7 @@ const projects = [
       { label: 'Categorías', value: '15' },
     ],
     icon: Brain,
-    githubUrl: 'https://github.com/tu-usuario/doc-classifier',
+    githubUrl: 'https://github.com/Alejandro-job/doc-classifier',
   },
   {
     slug: 'deteccion-fraude',
@@ -92,7 +107,7 @@ const projects = [
       { label: 'Recall', value: '98%' },
     ],
     icon: Shield,
-    githubUrl: 'https://github.com/tu-usuario/fraud-detection',
+    githubUrl: 'https://github.com/Alejandro-job/fraud-detection',
   },
   {
     slug: 'etl-pipeline',
